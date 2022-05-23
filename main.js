@@ -92,4 +92,16 @@ getString("may 23 2022");
 
 // לא פתור!
 
+// 174 צרו פונקציה שיוצרת תאריך רנדומלי בין 31/01/1990 ל 31/01/2022
+// ומדפיסה את התוצאה.
 
+function getRandomDate() {
+  var month = Math.floor(Math.random() * (12 - 1) + 1);
+  var day = Math.floor(Math.random() * (31 - 1) + 1);
+  var year = Math.floor(Math.random() * (2022 - 1990) + 1);
+  var strDate = month + "/" + day + "/" + year;
+  var date = new Date(strDate);
+  console.log(date);
+  return date;
+}
+getRandomDate();
