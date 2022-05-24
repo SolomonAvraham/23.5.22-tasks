@@ -101,7 +101,6 @@ function getRandomDate() {
   var year = Math.floor(Math.random() * (2022 - 1990) + 1);
   var strDate = month + "/" + day + "/" + year;
   var date = new Date(strDate);
-  console.log(date);
   return date;
 }
 getRandomDate();
