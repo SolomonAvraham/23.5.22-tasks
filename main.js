@@ -98,11 +98,10 @@ getString("may 23 2022");
 function getRandomDate() {
   var month = Math.floor(Math.random() * (12 - 1) + 1);
   var day = Math.floor(Math.random() * (31 - 1) + 1);
-  var year = Math.floor(Math.random() * (2022 - 1990) + 1);
+  var year = Math.floor(Math.random() * (2022 - 1990) + 1990);
   var strDate = month + "/" + day + "/" + year;
   var date = new Date(strDate);
   return date;
 }
 getRandomDate();
 
-// year- השנה עוברת את המקסימום
