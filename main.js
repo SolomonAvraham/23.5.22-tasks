@@ -104,3 +104,5 @@ function getRandomDate() {
   return date;
 }
 getRandomDate();
+
+// year- השנה עוברת את המקסימום
